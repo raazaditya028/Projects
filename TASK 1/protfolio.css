@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:#000207;
+    color: #ccc;
+}
+
+header {
+    background: #010007;
+    color: #ccc;
+    border: 1px solid #ccc;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+header h1 {
+    margin: 0.5rem 0;
+}
+
+section {
+    padding: 2rem 1rem;
+    margin: 1rem 0;
+    background:#000207 ;
+    text-align: center;
+}
+
+section h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 1rem 0;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0.5rem;
+}
+
+#resume a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background:#ccc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+#resume a:hover {
+    background:#ccc;
+}
+
+.project {
+    margin: 1rem 0;
+}
+
+footer {
+    background:#010007;
+    color: #ccc;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 0.1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 0.9rem;
+}

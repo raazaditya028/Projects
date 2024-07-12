@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    height: 100%;
+}
+
+body {
+    background-image: url('image/tech.avif'); /* Replace with your image file name or URL */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding-top: 100px;
+}
+
+section {
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    color: #fff;
+}
+
+section h1, section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+section button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+section button:hover {
+    background-color: #218838;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: #fff;
+}
